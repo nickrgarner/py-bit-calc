@@ -190,26 +190,6 @@ while True:
     elif operation == "ANDNOT":
         numberC = Number("0b" + andnot(numberA.getbinary(), numberB.getbinary()))
 
-    """
-    CODE HERE to interpret inputs/operators, and perform operations.
-
-    """
-
-    """
-    Outputs, dont change the following because we're grading based on this.
-    We're going to grade by testing it with a .txt file with some sample inputs,
-    and we expect to see results like:
-
-    Operation: AND
-    A: 5    0x5    0b101
-    B: 9    0x9    0b1001
-    C: 1    0x1    0b1
-
-      (this example takes input:   5 AND 9  )
-
-
-    Make sure your code reads the input correctly
-    """
     # output
     print("\nCompute Result:")
     print("     Operation: ", operation)
